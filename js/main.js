@@ -55,7 +55,7 @@ $(window).scroll(function() {
     }
 });
 
-var number = 740;
+var number = 146;
 
 setInterval(() => {
     number++;
@@ -65,7 +65,23 @@ setInterval(() => {
     $('#number3').text(number3)
     $('#number2').text(number2)
     $('#number1').text(number1)
+    if (number > 999) {
+        number = '146'
+    }
 }, 1500);
 $('.spoiler').click(function() {
     $(this).toggleClass('spoiler_open');
+});
+
+
+
+var settings = {
+    "url": "https://api.ip2loc.com/HzVKoye8GtJ7S3Tp5u4V2Jl38ChGS6pI/detect?include=city",
+    "method": "GET",
+    "timeout": 0,
+};
+
+$.ajax(settings).done(function(response) {
+    $('.location_ip').text(response.city);
+    console.log(response)
 });
