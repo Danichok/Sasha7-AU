@@ -40,7 +40,7 @@ a {
 
 .header__body {
     text-align: center;
-    padding-top: 12vh;
+    padding-top: 7vh;
 }
 
 .header__body_text {
@@ -53,32 +53,28 @@ a {
 }
 
 .header__body_text h1 {
-    font-size: 48px;
+    font-size: 68px;
     font-weight: 400;
     max-width: 260px;
     text-align: start;
     margin: 0 auto;
-    font-family: 'Poppins', sans-serif;
 }
 
 .header__body_text h2 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
     margin: 0 auto;
     width: 256px;
     text-align: start;
-    font-family: 'Poppins', sans-serif;
 }
 
 .header__body_text h3 {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 400;
     padding-top: 20px;
-    font-family: 'Poppins', sans-serif;
 }
 
 .header__body_text span {
-    font-family: 'Poppins', sans-serif;
     color: #DE658A;
 }
 
@@ -119,7 +115,7 @@ a {
 .header__body_join {
     font-weight: 600;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     margin: 0 auto;
     margin-bottom: 10px;
     text-decoration: underline;
@@ -148,14 +144,14 @@ a {
     margin-top: 35px;
     background: #DE658A;
     border: none;
-    font-size: 20px;
+    font-size: 22px;
     border-radius: 50px;
     color: white;
-    padding: 15px 35px;
     cursor: pointer;
     overflow: hidden;
     position: relative;
-    font-family: 'Poppins', sans-serif;
+    padding-top: 9px;
+    padding-bottom: 10px;
 }
 
 .header__body_down_block {
@@ -202,13 +198,13 @@ a {
 }
 
 .item_block img {
-    width: 60px;
+    width: 50px;
 }
 
 .item_block h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 300;
     padding-left: 30px;
 }
 
@@ -228,9 +224,8 @@ a {
 }
 
 .spoiler {
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
+    width: 110%;
+    padding-left: 15px;
     cursor: pointer;
     transition: 0.4s;
     overflow: hidden;
@@ -255,6 +250,7 @@ a {
     font-size: 16px;
     font-family: 'Poppins', sans-serif !important;
     max-width: 100%;
+    font-weight: 300;
 }
 
 .spoiler_text p {
@@ -335,13 +331,13 @@ a {
 
 .fa,
 .fas {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .fa,
 .far,
 .fas {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Teko', sans-serif;
 }
 
 .fa,
@@ -493,10 +489,10 @@ a {
 }
 
 .footer__body_text {
-    font-size: 24px;
+    font-size: 28px;
     color: black;
     font-weight: 300;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .footer__body_text img {
@@ -505,7 +501,6 @@ a {
 }
 
 .footer__body_bottom {
-    padding-top: 25px;
     padding-bottom: 25px;
 }
 
@@ -532,7 +527,7 @@ a {
 
 .footer__title {
     font-weight: 300;
-    font-size: 40px;
+    font-size: 48px;
 }
 
 .footer_desc {
@@ -640,6 +635,23 @@ a {
 
 /* ADAPTIVE */
 
+@media (max-width: 1740px) {
+    .header__body_text h1 {
+        font-size: 48px;
+    }
+    .header__body {
+        text-align: center;
+        padding-top: 5vh;
+    }
+}
+
+@media (max-width: 1500px) {
+    .header__body {
+        text-align: center;
+        padding-top: 2vh;
+    }
+}
+
 @media (max-width: 1024px) {
     .container {
         max-width: 840px;
@@ -706,7 +718,7 @@ a {
         font-size: 2vw;
     }
     .footer__body_button_2 i {
-        font-size: 10px;
+        font-size: 20px;
         position: relative;
     }
     .different__body_item_text {
@@ -739,6 +751,9 @@ a {
     }
     .msg__body {
         width: 90%;
+    }
+    .item_block img {
+        width: 40px;
     }
 }
 
@@ -782,9 +797,6 @@ a {
         object-fit: none;
         height: 13vh;
     }
-    .footer__title {
-        font-size: 35px;
-    }
     .footer__body_text {
         font-size: 30px;
     }
@@ -811,7 +823,7 @@ a {
         display: none;
     }
     .header__body_text h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
     .header__body_text h2 {
         font-size: 20px;
@@ -963,10 +975,8 @@ a {
         font-size: 18px;
     }
     .header_button {
-        width: 70%;
-        font-size: 18px;
+        font-size: 24px;
         margin-top: 15px;
-        padding: 15px 20px;
     }
     .popup__notify {
         bottom: 20%;
@@ -1063,7 +1073,7 @@ a {
     }
     .footer__body_text {
         width: 90%;
-        font-size: 18px;
+        font-size: 24px;
         margin-bottom: 20px;
         margin: 0 auto;
     }
@@ -1081,9 +1091,6 @@ a {
     .text__body {
         width: 75%;
         margin: 0 auto;
-    }
-    .footer__title {
-        font-size: 25px;
     }
     .footer_desc {
         margin-top: 20px;
@@ -1257,23 +1264,33 @@ a {
         padding-bottom: 23vh;
     }
     .footer_button {
-        font-size: 18px;
+        font-size: 24px;
         width: 80%;
     }
     .spoiler_title p {
-        font-size: 12px;
+        font-size: 14px;
     }
     .spoiler_open {
-        height: 20px;
+        height: 27px;
     }
     .spoiler_list {
-        max-width: 364px;
+        max-width: 431px;
     }
     .popular_title {
-        max-width: 298px;
+        max-width: 360px;
     }
     .popular_title h1 {
         font-size: 13px;
+    }
+    .footer__body {
+        padding-top: 50px;
+    }
+    .footer__title {
+        font-size: 40px;
+    }
+    .spoiler_title {
+        padding-bottom: 20px;
+        max-width: 486px;
     }
 }
 
@@ -1306,12 +1323,11 @@ a {
         padding-top: 5vh;
     }
     .header_button {
-        font-size: 16px;
         margin-top: 15px;
         padding: 15px 20px;
     }
     .footer_button i {
-        font-size: 10px;
+        font-size: 20px;
         position: relative;
         bottom: 1px;
     }
@@ -1349,7 +1365,7 @@ a {
         left: 7%;
     }
     .footer__body_text {
-        font-size: 20px;
+        font-size: 24px;
         margin-bottom: 0px;
     }
     .header__body_down_block {
