@@ -237,6 +237,11 @@ a {
     font-family: Poppins, sans-serif !important;
 }
 
+.spoiler_text {
+    max-width: 604px;
+    padding-right: 58px;
+}
+
 .spoiler_text p {
     font-size: 13px;
     padding-left: 30px;
