@@ -68,7 +68,7 @@ setInterval(() => {
     if (number > 999) {
         number = '146'
     }
-}, 1500);
+}, 6500);
 $('.spoiler').click(function() {
     $(this).toggleClass('spoiler_open');
 });
