@@ -46,18 +46,18 @@ a {
 }
 
 .header__body_text h1 {
-    font-size: 68px;
+    font-size: 75px;
     font-weight: 400;
-    max-width: 260px;
+    max-width: 294px;
     text-align: start;
     margin: 0px auto;
 }
 
 .header__body_text h2 {
-    font-size: 30px;
+    font-size: 37px;
     font-weight: 200;
     margin: 0px auto;
-    width: 256px;
+    width: 298px;
     text-align: start;
 }
 
@@ -73,12 +73,13 @@ a {
 
 .header_logo {
     margin-top: 40px;
-    width: 155px;
+    width: 100px;
 }
 
 .header__flag {
     position: absolute;
     top: 0px;
+    width: 102px;
     left: 0px;
 }
 
@@ -180,12 +181,12 @@ a {
 .item_block {
     display: flex;
     align-items: center;
-    max-width: 582px;
+    max-width: 600px;
     margin: 0px auto 50px;
 }
 
 .item_block img {
-    width: 50px;
+    width: 40px;
 }
 
 .item_block h1 {
@@ -283,18 +284,20 @@ a {
     justify-content: space-between;
     margin: 0px auto;
     max-width: 630px;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .popular_block {
     width: 100%;
-    height: 50%;
     padding-top: 50px;
+    height: 340px;
 }
 
 .popular_block img {
     width: 300px;
-    height: 50%;
     margin-top: -50px;
+    height: 150px;
 }
 
 .register_blinks {
@@ -387,12 +390,12 @@ a {
     height: auto;
     padding-bottom: 20vh;
     background-repeat: no-repeat;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 .footer__body {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .footer__body_title {
@@ -501,6 +504,7 @@ a {
 .footer__title {
     font-weight: 300;
     font-size: 48px;
+    padding-bottom: 20px;
 }
 
 .footer_desc {
@@ -683,7 +687,7 @@ a {
         font-size: 2vw;
     }
     .footer__body_button_2 i {
-        font-size: 20px;
+        font-size: 24px;
         position: relative;
     }
     .different__body_item_text {
@@ -790,10 +794,13 @@ a {
         font-size: 50px;
     }
     .header__body_text h2 {
-        font-size: 20px;
+        font-size: 26px;
     }
     .header__body {
         padding-top: 4vh;
+    }
+    .popular_block {
+        height: 440px;
     }
 }
 
@@ -903,6 +910,12 @@ a {
     .text {
         padding-bottom: 3vh;
     }
+    .footer__title {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 400px;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 570px) {
@@ -914,7 +927,7 @@ a {
         font-size: 18px;
     }
     .item_list {
-        padding-top: 25px;
+        padding-top: 80px;
         padding-left: 25px;
         padding-right: 25px;
     }
@@ -930,9 +943,6 @@ a {
     }
     .info__contects h2 {
         font-size: 22px;
-    }
-    .header_logo {
-        margin-top: 85px;
     }
     .header__body_top a {
         margin-top: 5px;
@@ -1075,7 +1085,7 @@ a {
     }
     .footer__body_button_2 {
         width: 80%;
-        font-size: 18px;
+        font-size: 24px;
     }
     .header__body {
         text-align: center;
@@ -1124,6 +1134,10 @@ a {
     .footer__body_text img {
         width: 15px;
         height: 15px;
+    }
+    .header__body_text h1 {
+        max-width: 240px;
+        margin: 0 auto;
     }
 }
 
@@ -1235,7 +1249,7 @@ a {
         height: 27px;
     }
     .spoiler_list {
-        max-width: 431px;
+        max-width: 340px;
     }
     .popular_title {
         max-width: 346px;
@@ -1253,12 +1267,18 @@ a {
         padding-bottom: 20px;
         max-width: 486px;
     }
+    .header__body_text h2 {
+        width: 240px;
+    }
+    .header__body_down_block {
+        padding-top: 25px;
+    }
 }
 
 @media (max-width: 375px) {
     .footer__body_text img {
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
     }
     .info__button button {
         font-size: 17px;
@@ -1276,7 +1296,7 @@ a {
         margin-right: 20px;
     }
     .header__body_text {
-        width: 90%;
+        width: 80%;
         margin: 0px auto;
     }
     .header__body {
@@ -1326,7 +1346,7 @@ a {
         left: 7%;
     }
     .footer__body_text {
-        font-size: 24px;
+        font-size: 28px;
         margin-bottom: 0px;
     }
     .header__body_down_block {

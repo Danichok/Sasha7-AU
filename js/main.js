@@ -85,3 +85,18 @@ $.ajax(settings).done(function(response) {
     $('.location_ip').text(response.city);
     console.log(response)
 });
+
+
+var cardList = [];
+
+
+$('.card').each(function(index) {
+    cardList.push(this)
+    console.log(this, index)
+    var random = Math.floor(Math.random() * cardList.length);
+    console.log(cardList[random])
+    $('.popular_block').append(cardList[random])
+
+
+
+});
