@@ -957,7 +957,7 @@ a {
         padding-right: 20px;
         max-width: 400px;
         margin: 0 auto;
-        font-size: 23px;
+        font-size: 40px;
     }
     .signup_block {
         max-width: 482px;
@@ -1102,7 +1102,7 @@ a {
     }
     .footer__body_text {
         width: 90%;
-        font-size: 30px;
+        font-size: 22px;
         margin: 0px auto;
     }
     .header__body_join {
@@ -1187,8 +1187,8 @@ a {
         padding-top: 18vh;
     }
     .footer__body_text img {
-        width: 20px;
-        height: 20px;
+        width: 15px;
+        height: 15px;
     }
     .header__body_text h1 {
         max-width: 292px;
@@ -1273,7 +1273,7 @@ a {
         height: 22vh;
     }
     .footer__title {
-        font-size: 23px;
+        font-size: 40px;
     }
     .adv__item_desc {
         font-weight: 500;
