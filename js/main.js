@@ -96,7 +96,4 @@ $('.card').each(function(index) {
     var random = Math.floor(Math.random() * cardList.length);
     console.log(cardList[random])
     $('.popular_block').append(cardList[random])
-
-
-
 });

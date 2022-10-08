@@ -33,11 +33,11 @@ a {
 
 .header__body {
     text-align: center;
-    padding-top: 7vh;
+    padding-top: 10vh;
 }
 
 .header__body_text {
-    width: 455px;
+    width: 400px;
     color: white;
     margin: 0px auto;
     border-radius: 40px;
@@ -46,25 +46,25 @@ a {
 }
 
 .header__body_text h1 {
-    font-size: 75px;
-    font-weight: 400;
+    font-size: 55px;
+    font-weight: 900;
     max-width: 294px;
     text-align: start;
     margin: 0px auto;
 }
 
 .header__body_text h2 {
-    font-size: 37px;
+    font-size: 30px;
     font-weight: 200;
     margin: 0px auto;
-    width: 298px;
+    width: 293px;
     text-align: start;
 }
 
 .header__body_text h3 {
     font-size: 22px;
     font-weight: 400;
-    padding-top: 20px;
+    padding-top: 36px;
 }
 
 .header__body_text span {
@@ -79,7 +79,7 @@ a {
 .header__flag {
     position: absolute;
     top: 0px;
-    width: 102px;
+    width: 170px;
     left: 0px;
 }
 
@@ -153,7 +153,7 @@ a {
     bottom: 20px;
     cursor: pointer;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 33px;
 }
 
 .header__body_down_block p {
@@ -502,9 +502,8 @@ a {
 }
 
 .footer__title {
-    font-weight: 300;
-    font-size: 48px;
-    padding-bottom: 20px;
+    font-weight: 900;
+    font-size: 40px;
 }
 
 .footer_desc {
@@ -605,6 +604,52 @@ a {
     text-align: center;
 }
 
+.signup {
+    margin-top: 80px;
+}
+
+.signup_block {
+    max-width: 740px;
+    margin: 0 auto;
+}
+
+.signup_block img {
+    width: 740px;
+}
+
+.signup_block h1 {
+    color: white;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    font-size: 35px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.signup_block h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.signup_block h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.signup_list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 @media (max-width: 1740px) {
     .header__body_text h1 {
         font-size: 48px;
@@ -612,6 +657,9 @@ a {
     .header__body {
         text-align: center;
         padding-top: 5vh;
+    }
+    .header__body_text {
+        width: 360px;
     }
 }
 
@@ -637,7 +685,6 @@ a {
     }
     .header__body {
         text-align: center;
-        padding-top: 8vh;
     }
     .different__body_item_text {
         font-size: 22px;
@@ -791,7 +838,7 @@ a {
         display: none;
     }
     .header__body_text h1 {
-        font-size: 50px;
+        font-size: 45px;
     }
     .header__body_text h2 {
         font-size: 26px;
@@ -915,6 +962,33 @@ a {
         padding-right: 20px;
         max-width: 400px;
         margin: 0 auto;
+        font-size: 23px;
+    }
+    .signup_block {
+        max-width: 482px;
+        margin: 0 auto;
+    }
+    .signup_block img {
+        width: 485px;
+    }
+    .signup {
+        margin-top: 72px;
+    }
+    .signup_block h1 {
+        color: white;
+        background-color: black;
+        width: 59px;
+        height: 59px;
+        border-radius: 100%;
+        font-size: 30px;
+        padding-left: 22px;
+        padding-right: 28px;
+        padding-top: 5px;
+        align-items: center;
+        display: flex;
+    }
+    .signup_list {
+        max-width: 340px;
     }
 }
 
@@ -1046,7 +1120,7 @@ a {
     }
     .footer__body_text {
         width: 90%;
-        font-size: 24px;
+        font-size: 30px;
         margin: 0px auto;
     }
     .header__body_join {
@@ -1070,7 +1144,6 @@ a {
         margin-bottom: 30px;
     }
     .footer_button {
-        font-size: 20px;
         width: 80%;
     }
     .footer_counter {
@@ -1132,8 +1205,8 @@ a {
         padding-top: 18vh;
     }
     .footer__body_text img {
-        width: 15px;
-        height: 15px;
+        width: 20px;
+        height: 20px;
     }
     .header__body_text h1 {
         max-width: 240px;
@@ -1156,9 +1229,28 @@ a {
     .header__body_down_block {
         bottom: 100px;
     }
+    .signup_list {
+        max-width: 280px;
+    }
+    .signup_block img {
+        width: 400px;
+    }
+    .signup {
+        margin-top: 51px;
+    }
+    .signup_block {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .signup_block h3 {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 430px) {
+    .header__flag {
+        width: 150px;
+    }
     .header__body {
         text-align: center;
         padding-top: 6vh;
@@ -1259,9 +1351,6 @@ a {
     }
     .footer__body {
         padding-top: 50px;
-    }
-    .footer__title {
-        font-size: 40px;
     }
     .spoiler_title {
         padding-bottom: 20px;
